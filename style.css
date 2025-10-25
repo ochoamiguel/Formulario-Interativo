@@ -1,0 +1,80 @@
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f3f6fc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+h2 {
+   background: linear-gradient(135deg, #64b5f6 0%, #bb86fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+  margin-top: 15px;
+  font-size: 2.5rem;
+}
+
+form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+  color: #333;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+ width: 450px;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+}
+
+button{
+  background: linear-gradient(135deg, #1e74d7 0%, #7d6dec 28%, #9f5be9 100%, #826cf0 98%);
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #1e74d7 0%, #7d6dec 28%, #9f5be9 100%, #826cf0 98%);
+}
+
+#msg {
+  margin-top: 1.2rem;
+  font-size: 1rem;
+  text-align: center;
+}
